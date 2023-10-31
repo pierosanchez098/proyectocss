@@ -1,0 +1,113 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu{
+  margin-bottom: 2%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  font-size: 25px;
+  font-weight: 400;
+  background-color: rgb(134, 207, 38);
+  align-items: center;
+  height: 100px;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+}
+
+.columnas {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4); 
+    gap: 5px; 
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+
+.cuadrado {
+    border: 2px solid rgb(86, 110, 86);
+  border-radius: 10px; 
+  padding: 60px; 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    color: white;
+    background-color: rgb(111, 195, 243);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p1{
+  text-align: center;
+  background-color: rgb(160, 182, 164);
+  padding: 10px;
+}
+
+img {
+  max-width: 100%; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.Titulo2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  text-align: center;
+  padding: 67px;
+  background-color: aquamarine;
+}
+  
+
+  .cuadrado img {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+  }
+
+
+  .columnas2 {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(1); 
+    gap: 5px; 
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  .cuadradomedicinal {
+      border: 2px solid rgb(86, 110, 86);
+    border-radius: 10px; 
+    padding: 60px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .cuadradomedicinal img {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+  }
+  
+  
+
+  footer {
+    padding: 3%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

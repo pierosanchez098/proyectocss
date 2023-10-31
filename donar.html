@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Donar</title>
+    <link href="estilosdonar.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+    <img src="logo.png" alt="logo">
+    <h1>Donar</h1>
+
+
+    <div class="menu">
+        <a href="inicio.html">Inicio</a>
+        <a href="relevantes.html">Relevantes</a>
+        <a href="cuidados.html">Cuidados</a>
+        <a href="fertilizantes.html">Fertilizantes</a>
+        <a href="donaciones.html">Donaciones</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+
+
+    <form>
+        <label for="numero-tarjeta">Número de tarjeta de crédito:</label>
+        <input type="text" id="numero-tarjeta" name="numero-tarjeta" required><br>
+
+
+        <label for="tipo-tarjeta">Tipo de tarjeta:</label>
+        <select id="tipo-tarjeta" name="tipo-tarjeta" required>
+            <option value="Visa">Visa</option>
+            <option value="MasterCard">MasterCard</option>
+            <option value="American Express">American Express</option>
+            <option value="Discover">Discover</option>
+        </select><br>
+
+
+        <label for="nombre-titular">Nombre del titular:</label>
+        <input type="text" id="nombre-titular" name="nombre-titular" required><br>
+
+
+        <label for="fecha-expiracion">Fecha de expiración:</label>
+        <input type="text" id="fecha-expiracion" name="fecha-expiracion" placeholder="MM/AA" required><br>
+
+
+        <label for="codigo-seguridad">Código de seguridad (CVV):</label>
+        <input type="text" id="codigo-seguridad" name="codigo-seguridad" required><br>
+
+
+        <label for="direccion-facturacion">Dirección de facturación:</label>
+        <input type="text" id="direccion-facturacion" name="direccion-facturacion" required><br>
+
+
+        <input type="submit" value="Donar ya!">
+    </form>
+
+
+    <footer>pierosanchez090@gmail.com - Derechos reservados © 2023</footer>
+</body>
+
+
+</html>
